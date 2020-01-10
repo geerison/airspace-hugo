@@ -3,6 +3,5 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.62.2"
-        theme: airspace-hugo
         config: exampleSite/config.toml
         flags: --buildDrafts=true
