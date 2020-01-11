@@ -140,3 +140,6 @@ link = "#"
 [[params.social]]
 icon = "ion-social-facebook-outline"
 link = "#"
+[module]
+  [[module.imports]]
+    path = "https://github.com/geerison/airspace-hugo"
