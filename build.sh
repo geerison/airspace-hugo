@@ -1,5 +1,6 @@
 #!/bin/bash
-cd exampleSite
+git submodule add https://github.com/geerison/airspace-hugo.git themes/airspace-hugo
+cd exampleSiteairspace-hugo
 set -x
 set -e
 
