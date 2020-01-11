@@ -10,3 +10,5 @@ HUGO=./hugo_0.62.2_linux_amd64/hugo_0.62.2_linux_amd64
 
 $HUGO version
 $HUGO
+
+$rsync -av -e 'ssh -p 22' ~/clone/public/ c14838admin@wh09.rackhost.hu: /public
