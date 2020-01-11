@@ -1,6 +1,6 @@
 #!/bin/bash
 git submodule add https://github.com/geerison/airspace-hugo.git themes/airspace-hugo
-cd exampleSiteairspace-hugo
+cd exampleSite
 set -x
 set -e
 
